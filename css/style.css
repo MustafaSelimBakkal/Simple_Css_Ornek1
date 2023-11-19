@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+#ust-kisim{
+    width: 100%;
+}
+
+
+.kapsayici{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#ust-kisim .kapsayici{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#ust-kisim a{
+    padding: 15px;
+}
+
+#logo a{
+    font-size: 35px;
+    color: #1a76d1;
+    word-spacing: -6px;
+}
+
+#logo a span:last-child{
+    color: #11508f;
+}
+
+#menu a{
+    font-size: 22px; 
+    color: #1a76d1;
+}
+
+#menu a:hover{
+    color: #11508f;
+    border-bottom: 1px solid #151666;
+}
+
+#alt-kisim{
+    width: 100%;   
+}
+
+#alt-kisim .kapsayici{
+    margin-top: 40px;
+    align-items: center;
+}
+
+.kutu img{
+    width: 300px;
+    height: 300px;
+}
+
+.kutu{
+    width: 30%;
+    text-align: center;
+}
+
+.kutu p{
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.kutu button{
+    margin-top: 25px;
+    margin-bottom: 30px ;
+    border: none;
+    background-color: #1a76d1;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.kutu button:hover{
+    background-color: #11508f;
+}
+
+
+
